@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: DodgerBlue;
+}
+.contenedor1{
+	background: #0079bf;
+	height: 60px;
+	width: 1300px;
+	overflow: auto;
+}
+
+.iconos i{
+	margin-left: 10px;
+}
+.iconos i,p{
+	float: left;
+	color: white;
+	margin-top: 10px;
+	background: SkyBlue;
+	padding: 10px;
+}
+
+.buscador {
+	color: white;
+	margin-top: 10px;
+	margin-left: 50px;
+	background: SkyBlue;
+	width: 200px;
+	padding: 10px;
+	float: left;
+}
+.buscador i{
+	margin-left: 180px;
+}
+
+.imagen-titulo .fa{
+	color: #bcd9ea;
+	font-size: 20px;
+	margin-left: 270px;
+	margin-top: 20px;
+	float: left;
+}
+.contenedor1 h1{
+	font-family: 'Lobster', cursive;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #bcd9ea;
+	font-size: 35px;
+	float: left;
+}
+.iconos2{
+	float: left;
+	color: white;
+	margin-left: 350px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.iconos2 i{
+	margin-left: 10px;
+	background: SkyBlue;
+	padding: 7px;
+}
+.contenedor2{
+	overflow: auto;
+}
+
+.contenedor2 h3,i,p{
+	color: white;
+	background: none;
+}
+.contenedor2 h3{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+.contenedor2 i{
+	float: left;
+	margin-left: 40px;
+	margin-top: 23px;
+	font-size: 20px;
+}
+.contenedor2 p{
+	font-size: 18px;
+	margin-left: 50px;
+}
+.menu{
+	float: left;
+	margin-top: 20px;
+}
+.menu i{
+	float: left;
+	margin-left: 650px;
+	font-size: 10px;
+}
+.menu a{
+	float: left;
+	color: white;
+}
+button{
+  background: none;
+  border: 0;
+  color: inherit;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+}
+#formulario{
+	background: #E2E4E6;
+	border-radius: 5px;
+	width: 260px;
+	height: 100px;
+	margin-left: 20px;
+}
+#formulario input{
+	position: relative;
+	border-radius: 5px;
+    border: none;
+    padding: 0.3em;
+	margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;	
+}
+#formulario button{
+	position: absolute;
+	top: 180px;
+	right: 1180px;
+	color: white;
+	padding: 0.5em 3em;
+	left: 20px;
+	background-color: #5BAE45;
+    border: none;
+    border-radius: 5px;
+}
