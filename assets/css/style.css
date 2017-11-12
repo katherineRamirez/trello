@@ -100,7 +100,8 @@ body{
 	color: white;
 }
 button{
-  background: none;
+  background: RoyalBLue;
+  padding: 6px 70px;
   border: 0;
   color: inherit;
   margin-left: 20px;
@@ -108,29 +109,72 @@ button{
   font-size: 18px;
   color: white;
 }
-#formulario{
+.clase_contenedor{
+	position: relative;
 	background: #E2E4E6;
 	border-radius: 5px;
 	width: 260px;
-	height: 100px;
-	margin-left: 20px;
+	height: 120px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
-#formulario input{
-	position: relative;
+.input_principal{
+	position: absolute;
 	border-radius: 5px;
     border: none;
     padding: 0.3em;
 	margin-left: 20px;
-    margin-top: 10px;
-    width: 200px;	
+	bottom: 70px;
+	right: 25px;
+    width: 200px;
 }
-#formulario button{
+.clase_boton_guardar{
 	position: absolute;
-	top: 180px;
-	right: 1180px;
+	bottom: 20px;
 	color: white;
 	padding: 0.5em 3em;
-	left: 20px;
+	left: 7px;
+	background-color: #5BAE45;
+    border: none;
+    border-radius: 5px;
+}
+.clase_div_contenedor{
+	position: relative;
+	margin-left:350px;
+	bottom: 120px;
+	background: #E2E4E6;
+	border-radius: 5px;
+	width: 260px;
+	height: 80px;
+}
+
+.clase_a{
+	position: absolute;
+	top: 50px;
+}
+.clase_divTarjeta{
+	position: relative;
+	margin-left:630px;
+	bottom: 200px;
+	background: #E2E4E6;
+	border-radius: 5px;
+	width: 260px;
+	height: 180px;
+}
+
+.clase_textarea{
+	position: absolute;
+	left: 10px;
+	bottom: 60px;
+	width: 230px;
+	height: 100px;
+}
+.clase_btn_añadir{
+	position: absolute;
+	top: 115px;
+	color: white;
+	padding: 0.5em 3em;
+	left: 3px;
 	background-color: #5BAE45;
     border: none;
     border-radius: 5px;
