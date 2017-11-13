@@ -1,29 +1,34 @@
-//al dar click en a crear un textarea
+// Llamar a mis elementos del html
+
 var botonAñadir = document.getElementById("boton");
 var contenedor = document.getElementById("contenedor3");
 var nuevoContenedor = document.getElementById("contenedor4");
 var contenedor5 = document.getElementById("contenedor5");
 
+// Crear función del botón añadir
 botonAñadir.addEventListener("click", function(){
 
+// Añadir atributo al botón añadir (se desaparece el botón "Añadir una lista...")
     botonAñadir.setAttribute("style","visibility:hidden");
 
     var input = document.createElement("input");
 
+// Creando atributos al input creado
     input.setAttribute("type", "text");
     input.setAttribute("placeholder", "Añade Tarea");
     input.classList.add("class", "input_principal");
 
     input.value;
 
-    //creando boton
+// Creando boton guardar
     var btn = document.createElement("button");
-    //añadiendo id al boton creado, para hacer un addEventListener del botón guardar
+
+// Añadiendo id al boton creado, para hacer un addEventListener del botón guardar
     btn.setAttribute("id", "guardar");
     var text_btn = document.createTextNode("Guardar");
     btn.classList.add("class","clase_boton_guardar");
 
-     //asignando hijos al padre
+// Asignando hijos al padre
     contenedor.appendChild(input);
     btn.appendChild(text_btn);
     contenedor.appendChild(btn);
@@ -32,6 +37,7 @@ botonAñadir.addEventListener("click", function(){
 
     var btn_guardar =document.getElementById("guardar");
 
+// Creando una función al botón Guardar
     btn_guardar.addEventListener("click",function(){
 
 
@@ -39,9 +45,9 @@ botonAñadir.addEventListener("click", function(){
         contenedor_usuario.classList.add("class","clase_div_contenedor");
         var titulo_usuario = document.createElement("p");
         var text_titulo_usuario = document.createTextNode(input.value);
-        // crear un add para añadir tarjeta
+// crear un add para añadir tarjeta
         var a = document.createElement('a');
-        // crear atributo a add
+// crear atributo a add
         a.setAttribute('href', '#');
         var textAdd = document.createTextNode('Añadir tarjeta');
         a.classList.add("class","clase_a");
@@ -52,6 +58,7 @@ botonAñadir.addEventListener("click", function(){
         contenedor_usuario.appendChild(a);
         nuevoContenedor.appendChild(contenedor_usuario);
 
+// Creando función al elemento "a" creado
     a.addEventListener("click",function(){
 
         a.setAttribute("style","visibility:hidden");
